@@ -20,8 +20,8 @@
 </head>
 <body>
     <div class="body">
-    <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg nav-propio fixed-top">
+      <!-- Barra de navegación -->
+      <nav class="navbar navbar-expand-lg nav-propio fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="./index.html">
                 <img src="./img/Logo icono transparente.png" alt="Logo Gordo Random" width="80" height="80">
@@ -58,9 +58,38 @@
           </ul>
         </div>
       </nav>
-    <!-- Encabezado -->
+    <!-- Encabezado carrousel-->
     <header>
-       
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner header-propio">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./img/Carrousel3.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Comidas del mundo a tu mesa</h5>
+                  <p class="texto-carrousel">Platos envasados al vacío para calentar de manera fácil y rápida</p>
+                </div>
+              </div>
+              <div class="carousel-item header-propio" data-bs-interval="2000">
+                <img src="./img/carrousel1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Vos elegí a dónde querés ir</h5>
+                  <p class="texto-carrousel">Nosotros te embarcamos en este viaje de sabores con los mejores platos</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
     </header>
     <div class="linea"></div>
     <!-- JavaScript Bundle with Popper -->
