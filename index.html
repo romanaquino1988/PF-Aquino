@@ -21,7 +21,7 @@
 <body>
     <div class="body">
       <!-- Barra de navegación -->
-      <nav class="navbar navbar-expand-lg bg-light">
+      <nav class="navbar navbar-expand-lg nav-propio fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img src="./img/Logo icono transparente.png" alt="Logo Gordo Random" width="80" height="80"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,10 +29,11 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled">Disabled</a>
+              <a class="nav-link link-propio" aria-current="page" href="https://app.luveat.com/menu/gordorandom">Hacé tu pedido</a>
+              <a class="nav-link link-propio" href="./pages/menucomida.html">Menú completo</a>
+              <a class="nav-link link-propio" href="./pages/packsdescuento.html">Packs descuento</a>
+              <a class="nav-link link-propio" href="./pages/cateringeventos.html">Catering eventos</a>
+              <a class="nav-link link-propio" href="./pages/quienessomos.html">Quienes somos</a>
             </div>
           </div>
           <ul class="nav justify-content-end">
@@ -50,12 +51,12 @@
       </nav>
     <!-- Encabezado carrousel-->
     <header>
-        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide header-propio" data-bs-ride="carousel">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
             </div>
-            <div class="carousel-inner header-propio">
+            <div class="carousel-inner">
               <div class="carousel-item active" data-bs-interval="10000">
                 <img src="./img/Carrousel3.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
@@ -63,7 +64,7 @@
                   <p class="texto-carrousel">Platos envasados al vacío para calentar de manera fácil y rápida</p>
                 </div>
               </div>
-              <div class="carousel-item header-propio" data-bs-interval="2000">
+              <div class="carousel-item" data-bs-interval="2000">
                 <img src="./img/carrousel1.png" class="d-block w-100" alt="...">
                 <div class="carousel-caption d-none d-md-block">
                   <h4>Vos elegí a dónde querés ir</h4>
