@@ -37,7 +37,8 @@ html{
 .header-propio{
     margin-top: 30px;
 }
-h5{
+h4{
+    background-color: rgba(236, 246, 236, 0.548);
     font-size: 35px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(20, 19, 19);
@@ -47,5 +48,44 @@ h5{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(20, 19, 19);
 }
-/* Section packs descuento */
+/* Contenido principal */
 
+/* Packs descuento */
+.section_titulos{
+    color: rgb(20, 19, 19);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+h1{
+    text-align: center;
+}
+.platos-index{
+    margin-bottom: 30px;
+}
+.card-propio{
+    padding: 5px;
+    border-top: 10px;
+    margin-left: 3.8%;
+    margin-right: 3.8%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 14px;
+}
+h5{
+    background-color: white;
+    font-size: 22px;
+}
+.btn-pediloaca{
+    background-color: rgb(255, 255, 95);
+    color: black;
+    border: 1px solid black;
+   padding-bottom: 1px;
+}
+.btn-pediloaca:hover{
+    background-color: lightslategray;
+    color:rgb(255, 255, 95);
+    border: 1px solid black;
+}
