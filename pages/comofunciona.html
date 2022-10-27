@@ -22,42 +22,33 @@
     <div class="body">
     <!-- Barra de navegación -->
     <nav class="navbar navbar-expand-lg nav-propio fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-                <img src="../img/Logo icono transparente.png" alt="Logo Gordo Random" width="80" height="80">
-            </a>
-          <div class="collapse navbar-collapse navlink-propio" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item navlink-propio">
-                <a class="nav-link link-propio" aria-current="page" href="https://app.luveat.com/menu/gordorandom">Hacé tu pedido</a>
-              </li>
-              <li class="nav-item navlink-propio">
-                <a class="nav-link link-propio" href="../pages/menucomida.html">Menú completo</a>
-              </li>
-              <li class="nav-item navlink-propio">
-                <a class="nav-link  link-propio" href="../pages/packsdescuento.html">Packs descuento</a>
-              </li>
-              <li class="nav-item navlink-propio">
-                <a class="nav-link  link-propio" href="../pages/cateringeventos.html">Catering eventos</a>
-              </li>
-              <li class="nav-item navlink-propio">
-                <a class="nav-link  link-propio" href="../pages/quienessomos.html">Quienes somos</a>
-              </li>
-            </ul>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html"><img src="../img/Logo icono transparente.png" alt="Logo Gordo Random" width="80" height="80"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link link-propio" aria-current="page" href="https://app.luveat.com/menu/gordorandom">Hacé tu pedido</a>
+            <a class="nav-link link-propio" href="../pages/menucomida.html">Menú completo</a>
+            <a class="nav-link link-propio" href="../pages/packsdescuento.html">Packs descuento</a>
+            <a class="nav-link link-propio" href="../pages/cateringeventos.html">Catering eventos</a>
+            <a class="nav-link link-propio" href="../pages/quienessomos.html">Quienes somos</a>
           </div>
-          <ul class="nav justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link active linkredes-propio" aria-current="page" href="https://www.instagram.com/gordo.random/"><i class="fa-brands fa-square-instagram"></i></a>
-            </li>
-            <li class="nav-item linkredes-propio">
-              <a class="nav-link linkredes-propio" href="https://www.facebook.com/profile.php?id=100063474161834"><i class="fa-brands fa-square-facebook"></i></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link linkredes-propio" href="http://wa.me/5491135719086"><i class="fa-brands fa-square-whatsapp"></i></a>
-            </li>
-          </ul>
         </div>
-      </nav>
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link active linkredes-propio" aria-current="page" href="https://www.instagram.com/gordo.random/"><i class="fa-brands fa-square-instagram"></i></a>
+          </li>
+          <li class="nav-item linkredes-propio">
+            <a class="nav-link linkredes-propio" href="https://www.facebook.com/profile.php?id=100063474161834"><i class="fa-brands fa-square-facebook"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link linkredes-propio" href="http://wa.me/5491135719086"><i class="fa-brands fa-square-whatsapp"></i></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <!-- Encabezado -->
     <header>
         <h2 class="titulos_paginas">Cómo funciona</h2>
@@ -76,41 +67,91 @@
         </video>
         <a class="comofunciona_compra" href="https://app.luveat.com/menu/gordorandom">Hacé tu pedido acá</a>
     </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="linea2"></div>
-        <h2>Seguinos en redes</h2>
-        <ul class="footer_redessociales">
-            <li><a href="https://www.instagram.com/gordo.random/"><i class="fa-brands fa-square-instagram"></i></a></li>
-            <li><a href="https://www.facebook.com/profile.php?id=100063474161834"><i class="fa-brands fa-square-facebook"></i></a></li>
-        </ul>
-        <div class="linea2"></div>
-        <h3>Contacto</h3>
-    <!-- Acá va el formulario -->
-        <h3>Preguntas frecuentes</h3>
-        <ol class="footer_preguntasfrecuentes">
-            <li>¿Cuánto tiempo dura congelado?</li>
-            <ul>
-                <li>Hasta 6 meses.</li>
-            </ul>
-            <li>¿Cómo se calientan los platos?</li>
-            <ul>
-                <li>A baño maría u horno.</li>
-            </ul>
-            <li>¿Qué días y horarios se entrega?</li>
-            <ul>
-                <li>Lunes a viernes de 19 a 21hs.</li>
-            </ul>
-            <li>¿Qué métodos de pago utilizan?</li>
-            <ul>
-                <li>Efectivo, mercadopago o transferencia</li>
-            </ul>
-        </ol>
-        <h3>Zonas de envío</h3>
-        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12eJx9WnuaEWo-mVeZzMI2XZLJwdwCBO_&ehbc=2E312F" width="320" height="240"></iframe>
+     <!-- Footer -->
+     <footer>
+      <div class="linea2"></div>
+      <div class="container">
+        <div class="row">
+        <!-- Formulario -->
+        <form class=" col-lg-3 col-md-10 col-sm-10">
+          <h3><strong>Contacto</strong></h3>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Comentario</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+            <div id="emailHelp" class="form-text">Tu consulta será respondida en menos de 24hs</div>
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Enviar promociones</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      <!-- Accordion -->
+      <div class="accordion accordion-propio col-lg-4 col-md-10 col-sm-10" id="accordionExample">
+        <h3><strong>Preguntas frecuentes</strong></h3>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              ¿Cuánto duran freezados?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+             Hasta 6 meses, todos incluyen fecha de vencimiento.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              ¿Cómo se calientan los platos?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+             A baño maría u horno, según las instrucciones que vienen en cada uno.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              ¿Qué días y horarios se entregan?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              De lunes a viernes de 19 a 21hs, según la zona.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                ¿Qué métodos de pago utilizan?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               Efectivo, mercadopago o transferencia bancaria.
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="col-lg-3 col-md-10 col-sm-10">
+        <!-- Zonas de envio -->
+      <h3><strong>Zonas de envío</strong></h3>
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=12eJx9WnuaEWo-mVeZzMI2XZLJwdwCBO_&ehbc=2E312F" width="320" height="240"></iframe>
+      </div>
+    </div>
+  </div>
+  <div class="linea2"></div>
     </footer>
-    <div class="linea2"></div>
     <!-- JavaScript Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </div>
