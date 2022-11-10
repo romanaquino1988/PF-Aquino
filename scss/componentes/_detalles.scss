@@ -1,0 +1,24 @@
+/* font-family: 'Roboto', sans-serif; */
+
+html{
+    font-size: 80%;
+}
+/* Body */
+.body{
+    background-color: nth($colores, 2);
+}
+/* Linea separación */
+.linea{
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 500px;
+    padding: 0;
+    margin: 20px auto 20px auto;
+}
+.linea2{
+    border-top: 1px solid black;
+    height: 2px;
+    max-width: 100%;
+    padding: 0;
+    margin: 20px auto 20px auto;
+}

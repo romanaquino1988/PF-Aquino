@@ -1,0 +1,29 @@
+/* Section packs descuento */ 
+/* Section los más elegidos */
+.section_titulos{
+    color: rgb(20, 19, 19);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+section{
+    h1{
+        text-align: center;
+    }
+    h5{
+        background-color: rgb(255, 255, 141);
+        font-size: 22px;
+    }
+}
+
+.platos-index{
+    margin-bottom: 30px;
+    justify-content: center;
+}
+.card-propio{
+   @extend %cardpropio;
+}
+
+.texto-platos{
+    font-size: 17px;
+}
