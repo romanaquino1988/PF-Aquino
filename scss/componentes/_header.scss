@@ -6,9 +6,14 @@ header{
     h4{
     background-color: rgba(236, 246, 236, 0.548);
     font-size: 35px;
+    width: 550px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(20, 19, 19);
     }
+}
+.div-header{
+    display: flex;
+    justify-content: center;
 }
 .texto-carrousel{
     font-size: 20px;

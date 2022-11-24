@@ -69,9 +69,15 @@ body section figure{
 .div-catering{
     display: flex;
     justify-content: center;
-    align-content: center;
+   
 }
 .div-texto{
     margin-left: 20px;
     margin-right: 20px;
+}
+/* Cómo funciona */
+#video-comofunciona {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
 }

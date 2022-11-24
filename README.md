@@ -8,6 +8,9 @@ PreEntrega3-Aquino
 # Agrego descripciones y keywords para SEO
 Pryoecto Final Aquino
 # Modifiqué backgroundcolor de textos
-# Finalice página catering eventos
+# Finalicé página catering eventos
 # Agregué border radius a imagenes y videos
+# Finalicé página cómo funciona
+# Comprimí videos para que carguen más rápido
 # Subí el proyecto al servidor
+

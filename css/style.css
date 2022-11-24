@@ -75,8 +75,14 @@ html {
 header h4 {
   background-color: rgba(236, 246, 236, 0.548);
   font-size: 35px;
+  width: 550px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(20, 19, 19);
+}
+
+.div-header {
+  display: flex;
+  justify-content: center;
 }
 
 .texto-carrousel {
@@ -207,11 +213,6 @@ footer h3 {
   border-radius: 15px;
 }
 
-.div-fotoquienessomos {
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
 .texto_paginas {
   background-color: rgba(255, 255, 173, 0.548);
   font-size: 20px;
@@ -268,12 +269,18 @@ body section figure {
 .div-catering {
   display: flex;
   justify-content: center;
-  align-content: center;
 }
 
 .div-texto {
   margin-left: 20px;
   margin-right: 20px;
+}
+
+/* Cómo funciona */
+#video-comofunciona {
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */
