@@ -20,7 +20,7 @@ html {
 
 /* Body */
 .body {
-  background-color: rgb(255, 255, 235);
+  background-color: rgb(250, 250, 215);
 }
 
 /* Linea separación */
@@ -195,7 +195,8 @@ footer h3 {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   text-decoration: none;
   text-transform: uppercase;
-  margin-top: 110px;
+  margin-top: 90px;
+  padding-top: 30px;
   text-align: center;
 }
 
@@ -203,13 +204,24 @@ footer h3 {
   margin-top: 20px;
   border: 3px solid black;
   width: 600px;
+  border-radius: 15px;
+}
+
+.div-fotoquienessomos {
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .texto_paginas {
+  background-color: rgba(255, 255, 173, 0.548);
   font-size: 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(141, 141, 141, 0.584);
+  text-indent: 20px;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: rgb(20, 19, 19);
-  padding: 40px;
+  padding: 10px;
+  text-align: center;
 }
 
 body section figure {
@@ -227,12 +239,41 @@ body section figure {
 }
 
 /* Catering eventos */
-.video_evento {
-  margin-top: 20px;
+.video-evento {
   border: 3px solid black;
-  width: 600px;
+  border-radius: 15px;
+  width: 350px;
+  min-width: 300px;
+}
+
+.div-videoevento {
+  display: flex;
   justify-content: center;
-  justify-items: center;
+}
+
+.link-presupuesto {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.div-catering {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.div-texto {
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
