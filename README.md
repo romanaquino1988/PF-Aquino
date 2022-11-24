@@ -1,5 +1,4 @@
-# PreEntrega3-Aquino
-tercera entrega del proyecto de Román Aquino
+PreEntrega3-Aquino
 # Aplico sass en el css
 # Completo la página quienes somos
 # Completo la página menu comida
@@ -7,3 +6,8 @@ tercera entrega del proyecto de Román Aquino
 # Modifico títulos para SEO
 # Modifico Alt de imagenes y videos para SEO
 # Agrego descripciones y keywords para SEO
+Pryoecto Final Aquino
+# Modifiqué backgroundcolor de textos
+# Finalice página catering eventos
+# Agregué border radius a imagenes y videos
+# Subí el proyecto al servidor
