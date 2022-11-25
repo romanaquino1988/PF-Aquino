@@ -12,5 +12,6 @@ Pryoecto Final Aquino
 # Agregué border radius a imagenes y videos
 # Finalicé página cómo funciona
 # Comprimí videos para que carguen más rápido
+# Agregué página cómo funciona al nav
 # Subí el proyecto al servidor
 
